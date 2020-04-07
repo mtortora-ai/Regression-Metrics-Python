@@ -4,7 +4,7 @@ import numpy as np
 class RegressionMetrics:
     @staticmethod
     def metric_rss(observed, estimated):
-        # Mean Absolute Error
+        # Residual Sum of Squares
         rss = np.sum(np.square(observed - estimated))
         return rss
 
