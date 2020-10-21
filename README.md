@@ -2,7 +2,7 @@
  Statistical estimators used in regression or optimization problems.
  Implemented metrics:
  * **RSS** (Residual Sum of Squares):
- ![\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i }\right )  }^{ 2 } }] (https://latex.codecogs.com/svg.latex?%5Clarge%20MSE%3D%5Cfrac%20%7B%20%5Csum%20_%7B%20i%3D1%20%7D%5E%7B%20l%20%7D%7B%20%7B%20%5Cleft%28%20%7B%20%5Chat%20%7B%20y%20%7D%20%7D_%7B%20i%20%7D-%7B%20y%20%7D_%7B%20i%20%7D%20%5Cright%29%20%7D%5E%7B%202%20%7D%20%7D%20%7D%7B%20l%20%7D)
+ ![\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i }\right )  }^{ 2 } }](https://latex.codecogs.com/svg.latex?%5Clarge%20RSS%3D%5Csum_%7B%20i%3D1%20%7D%5E%7B%20l%20%7D%7B%20%7B%20%5Cleft%28%20%7B%20%5Chat%20%7B%20y%20%7D%20%7D%7B%20i%20%7D-%7B%20y%20%7D%7B%20i%20%7D%5Cright%20%29%20%7D%5E%7B%202%20%7D%20%7D)
  
  \(\text{RSS}=\sum_{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i }\right )  }^{ 2 } }\)
  
