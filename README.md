@@ -3,11 +3,16 @@
  Implemented metrics:
  * **RSS** (Residual Sum of Squares):
  
-<div style="text-align:center">
- <img src="https://latex.codecogs.com/svg.latex?\large&space;RSS=\sum_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;ii&space;}-{&space;y&space;}_{&space;i&space;}\right&space;)&space;}^{&space;2&space;}&space;}" title="\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y } }_{ ii }-{ y }_{ i }\right ) }^{ 2 } }" /> 
-</div>
+ $$
+\begin{align*}
+\sum_{i = 1}^{n} | (f + g )(x_i) - (f + g)(x_{i-1}) | &= \sum_{i = 1}^{n} | \{ f(x_i) + g(x_i) \} - \{ f(x_{i - 1} + g(x_{i-1}) \} |
+\\  &\leq \sum_{i = 1}^{n} | f(x_i) - f(x_{i - 1} | + \sum_{i = 1}^{n} | g(x_i) - g(x_{i - 1})|
+\\  &\leq  V(f, P) + V(g, P)
+\end{align*}
+$$ 
 
 <p align="center">
+ <img src="https://latex.codecogs.com/svg.latex?\large&space;RSS=\sum_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;ii&space;}-{&space;y&space;}_{&space;i&space;}\right&space;)&space;}^{&space;2&space;}&space;}" title="\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y } }_{ ii }-{ y }_{ i }\right ) }^{ 2 } }" /> 
 </p>
 
 ![\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y } }_{ i }-{ y }_{ i }\right ) }^{ 2 } }](https://latex.codecogs.com/svg.latex?\large&space;RSS=\sum_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;i&space;}-{&space;y&space;}_{&space;i&space;}\right&space;)&space;}^{&space;2&space;}&space;})
