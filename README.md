@@ -2,9 +2,13 @@
  Statistical estimators used in regression or optimization problems.
  Implemented metrics:
  * **RSS** (Residual Sum of Squares):
+ 
+<img align="left" src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
+![\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y } }_{ i }-{ y }_{ i }\right ) }^{ 2 } }](https://latex.codecogs.com/svg.latex?\large&space;RSS=\sum_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;i&space;}-{&space;y&space;}_{&space;i&space;}\right&space;)&space;}^{&space;2&space;}&space;})
+
  ![\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y } }_{ i }-{ y }_{ i }\right ) }^{ 2 } }](https://latex.codecogs.com/svg.latex?%5Clarge%20RSS%3D%5Csum_%7B%20i%3D1%20%7D%5E%7B%20l%20%7D%7B%20%7B%20%5Cleft%28%20%7B%20%5Chat%20%7B%20y%20%7D%20%7D_%7B%20i%20%7D-%7B%20y%20%7D_%7B%20i%20%7D%5Cright%20%29%20%7D%5E%7B%202%20%7D%20%7D)
  
- \(\text{RSS}=\sum_{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i }\right )  }^{ 2 } }\)
  
  * **MSE** (Mean Squared Error):
  ![MSE=\frac { \sum _{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i } \right)  }^{ 2 } }  }{ l }](<img src="https://latex.codecogs.com/svg.latex?\large&space;MSE=\frac&space;{&space;\sum&space;_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;i&space;}-{&space;y&space;}_{&space;i&space;}&space;\right)&space;}^{&space;2&space;}&space;}&space;}{&space;l&space;}" title="\large MSE=\frac { \sum _{ i=1 }^{ l }{ { \left( { \hat { y } }_{ i }-{ y }_{ i } \right) }^{ 2 } } }{ l }" />)
