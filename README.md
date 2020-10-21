@@ -50,4 +50,4 @@
  <img src="https://latex.codecogs.com/svg.latex?\large&space;R2=1-RSE" title="\large R2=1-RSE" />
  </p>
 
-Where ${y}_{i}$ is the actual value, ${ \hat { y }  }_{ i }$ is the forecasted value, $\overline { y }$ and $l$ are the average of the $y$ variable and the number of samples, respectively.
+Where <img src="https://latex.codecogs.com/svg.latex?\large&space;{y}{i}" title="\large {y}{i}" /> is the actual value, ${ \hat { y }  }_{ i }$ is the forecasted value, $\overline { y }$ and $l$ are the average of the $y$ variable and the number of samples, respectively.
