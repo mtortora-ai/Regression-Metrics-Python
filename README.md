@@ -4,7 +4,7 @@
  * **RSS** (Residual Sum of Squares):
  ![\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i }\right )  }^{ 2 } }] (https://latex.codecogs.com/svg.latex?\large&space;RSS=\sum_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;i&space;}-{&space;y&space;}_{&space;i&space;}\right&space;)&space;}^{&space;2&space;}&space;})
  
- $$\text{RSS}=\sum_{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i }\right )  }^{ 2 } }$$
+ \(\text{RSS}=\sum_{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i }\right )  }^{ 2 } }\)
  
  * **MSE** (Mean Squared Error):
  ![MSE=\frac { \sum _{ i=1 }^{ l }{ { \left( { \hat { y }  }_{ i }-{ y }_{ i } \right)  }^{ 2 } }  }{ l }](<img src="https://latex.codecogs.com/svg.latex?\large&space;MSE=\frac&space;{&space;\sum&space;_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;i&space;}-{&space;y&space;}_{&space;i&space;}&space;\right)&space;}^{&space;2&space;}&space;}&space;}{&space;l&space;}" title="\large MSE=\frac { \sum _{ i=1 }^{ l }{ { \left( { \hat { y } }_{ i }-{ y }_{ i } \right) }^{ 2 } } }{ l }" />)
