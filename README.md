@@ -3,8 +3,11 @@
  Implemented metrics:
  * **RSS** (Residual Sum of Squares):
  
- <p align="center">
+<div style="text-align:center">
  <img src="https://latex.codecogs.com/svg.latex?\large&space;RSS=\sum_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;ii&space;}-{&space;y&space;}_{&space;i&space;}\right&space;)&space;}^{&space;2&space;}&space;}" title="\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y } }_{ ii }-{ y }_{ i }\right ) }^{ 2 } }" /> 
+</div>
+
+<p align="center">
 </p>
 
 ![\large RSS=\sum_{ i=1 }^{ l }{ { \left( { \hat { y } }_{ i }-{ y }_{ i }\right ) }^{ 2 } }](https://latex.codecogs.com/svg.latex?\large&space;RSS=\sum_{&space;i=1&space;}^{&space;l&space;}{&space;{&space;\left(&space;{&space;\hat&space;{&space;y&space;}&space;}_{&space;i&space;}-{&space;y&space;}_{&space;i&space;}\right&space;)&space;}^{&space;2&space;}&space;})
