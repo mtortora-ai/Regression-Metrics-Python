@@ -15,11 +15,11 @@ class RegressionMetrics:
         return mse
 
     @staticmethod
-    def metric_msep(observed, estimated):
-        # Mean Squared Error of Prediction
-        msep = np.mean(
+    def metric_mspe(observed, estimated):
+        # Mean Squared Percentage Error
+        mspe = np.mean(
             np.divide(np.square(observed - estimated), np.square(observed)))
-        return msep
+        return mspe
 
     @classmethod
     def metric_rmse(cls, observed, estimated):
@@ -28,10 +28,10 @@ class RegressionMetrics:
         return rmse
 
     @classmethod
-    def metric_rmsep(cls, observed, estimated):
-        # Root Mean Square Error of Prediction
-        rmsep = np.square(cls.metric_msep(observed, estimated))
-        return rmsep
+    def metric_rmspe(cls, observed, estimated):
+        # Root Mean Square Percentage Error
+        rmspe = np.square(cls.metric_mspe(observed, estimated))
+        return rmspe
 
     @staticmethod
     def metric_mae(observed, estimated):
@@ -58,12 +58,6 @@ class RegressionMetrics:
         rae = np.divide(np.sum(np.abs(observed - estimated)),
                         np.sum(np.abs(observed - np.mean(observed))))
         return rae
-
-    @staticmethod
-    def metric_rss(observed, estimated):
-        # Residual Sum of Squares
-        rss = np.sum(np.square(observed - estimated))
-        return rss
 
     @classmethod
     def metric_r2(cls, observed, estimated):
